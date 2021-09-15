@@ -25,6 +25,7 @@ data class NoteEntity(
             note.content,
             note.creationTime,
             note.updateTime,
+            note.id
         )
     }
 
